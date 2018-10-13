@@ -2,7 +2,7 @@
 # https://github.com/damnever/pigar
 
 # server.py: 1
-Flask == 0.11.1
+Flask == 0.12.3
 
 # server.py: 91
 numpy == 1.13.3
