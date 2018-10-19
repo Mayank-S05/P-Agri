@@ -2,13 +2,15 @@
 # https://github.com/damnever/pigar
 
 # server.py: 1
-Flask == 0.12.3
+Flask == 1.0.2
 
 # server.py: 91
-numpy == 1.13.3
+numpy == 1.15.2
 
 # server.py: 19,90
-pandas == 0.18.1
+pandas == 0.23.4
 
 # server.py: 26,101
-scikit_learn == 0.19.1
+scikit_learn == 0.20.0
+
+xlrd == 1.1.0
