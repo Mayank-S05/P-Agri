@@ -9,7 +9,7 @@ Flask<br>Open CV for Python<br>Twilio API<br>Google Maps API
 
 <h2> Installation Guide </h2>
 <hr/>
-<h3> For Python UI 2.0 </h3> <br/>
+<h3> For P-Agri</h3> <br/>
  
   1. Install Flask, Python on your PC. Follow this <a href = "http://flask.pocoo.org/docs/0.12/installation/">link </a> if required   
   2. Open the directory 
