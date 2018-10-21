@@ -10,23 +10,74 @@ Flask<br>Open CV for Python<br>Twilio API<br>Google Maps API
 <h2> Installation Guide </h2>
 <hr/>
 <h3> For Python UI 2.0 </h3> <br/>
-<ol> 
-  <li> Install Flask, Python on your PC. Follow this link if <a href = "http://flask.pocoo.org/docs/0.12/installation/" >required </a> </li>
-  <li> Open the directory </li>
-  <li> Open command propmt or terminal in that directory </li>
-  <li> write "<b><i>python server.py</i></b>" </li>
-  <li> Now wait for the message "<i>Running on http://127.0.0.1:8000/</i>" </li>
-  <li> Open browser [preferably Chrome] and type "<b>localhost:8000/users/index</b>" and our webapp will open </li>
-</ol>
- No need for downloading any other requirements for this<br/>
+ 
+  1. Install Flask, Python on your PC. Follow this <a href = "http://flask.pocoo.org/docs/0.12/installation/">link </a> if required   
+  2. Open the directory 
+  3. Open command propmt or terminal in that directory
+  4. Activate virtualenv and install requirements
+  * Upgrade pip version
+  ```python 
+        python -m pip install --upgrade pip
+  ```
+  * Install virtualenv tool
+  ```python 
+        python -m pip install --user virtualenv
+  ```
+  * Create Virtual env
+  ```python 
+        python -m virtualenv env
+  ```
+  * Activate Environment
+  ```python 
+        .\env\Scripts\activate
+  ```
+  * Install all the requirements for project
+  ```python 
+       pip install -r requirements.txt
+  ```
+  5. Run <i>server.py</i>
+  ```python
+  python server.py
+  ```
+  6. Now wait for the message "<i>Running on http://127.0.0.1:8000/</i>" 
+  7. Open browser [preferably Chrome] and type "<b>localhost:8000/users/index</b>" and our webapp will open.
+
+ No need for downloading any other requirements for this. Also, the above project has been developed and run on Windows platform<br/>
+
 <h3> For Image Processing </h3> <br/>
-<ol>
-  <li> Install Python, OpenCV [latest version], NumPy on your PC. </li>
-  <li> Open the directory </li>
-  <li> OPen command prompt or terminal in that directory </li>
-  <li> run "<b><i> python united.py </i></b>" -> The object will be isolated </li>
-  <li> run "<b><i> python noise.py </i></b>" -> Required object gets isolated using this script from satellite image </li>
-</ol>
+
+  1. Install Python, OpenCV [latest version], NumPy on your PC. 
+  2. Open the directory <i>Python - Image processing</i>.
+  3. Open command prompt or terminal in that directory
+  4. Activate virtualenv and install requirements, if not done already
+  * Upgrade pip version
+  ```python 
+        python -m pip install --upgrade pip
+  ```
+  * Install virtualenv tool
+  ```python 
+        python -m pip install --user virtualenv
+  ```
+  * Create Virtual env
+  ```python 
+        python -m virtualenv env
+  ```
+  * Activate Environment
+  ```python 
+        .\env\Scripts\activate
+  ```
+  * Install all the requirements for project
+  ```python 
+       pip install -r requirements.txt
+  ``` 
+  5. The object will be isolated
+  ```python 
+       python united.py
+  ```
+  6. Required object gets isolated using this script from satellite image 
+```python 
+        python noise.py
+  ```
 
 <h2><b>Services provided:</b></h2><hr/>
 The Web application majorly consists of four services, namely
@@ -37,6 +88,8 @@ The Web application majorly consists of four services, namely
 <li>    A portal for the farmers where they could send in their query to an agro expert and also contact them fo further details.</li>
 </ul>
 
+Our proposed solution if implemented at the soil health centers which have been set up by the government, could help all the farmers to use minimum fertilizers, so as to maintain the soil health and also would provide them an opportunity to gain atmost revenue from the same piece of land. Thus it would be a win-win for all the parties involved. Our solution will be provided with the technologies such as Machine Learning and Image Processing. Machine Learning algorithm is used for prediction analysis i.e. to suggest the best crop and also the corresponding bio-fertilizer. Image Processing provides a technological base that could be used for further developmental projects in the field of automated drone or tractors as this generates a route through the field with the least number of turns.
+
 
 <h2><b>Implementation Scope:</b></h2><hr/>
 This could be implemented at the soil health center provided by the government. Thus, besides meansuring the nutritional values of the sample soil, now they would also provide details regarding the best crop.This would also mean that the product could reach every village in the country where farmers use the soil testing centers.<br>
@@ -44,8 +97,15 @@ This could be implemented at the soil health center provided by the government. 
 </p>
 
 <h2><b>Developers: </b></h2><hr/>
-<ol><li>
-Mayank Singh</li>
+<ol>
+<li>Mayank Singh</li>
 <li>Prajwal Brijesh Ainapur</li>
 <li>Sangamesh Kotalwar</li>
 </ol>
+
+
+* You can find idea specification document [here](https://github.com/Mayank-S05/P-Agri/blob/master/P-Agri_Idea_Specification_document.pdf)
+* You can also find video to see actual implementation on [YouTube](https://www.youtube.com/watch?v=G6aCBw9ttj0)
+
+<h3>Working block of the model</h3>
+![Imgur](https://i.imgur.com/ylObVkB.png)
