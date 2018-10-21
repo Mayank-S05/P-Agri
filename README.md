@@ -107,5 +107,6 @@ This could be implemented at the soil health center provided by the government. 
 * You can find idea specification document [here](https://github.com/Mayank-S05/P-Agri/blob/master/P-Agri_Idea_Specification_document.pdf)
 * You can also find video to see actual implementation on [YouTube](https://www.youtube.com/watch?v=G6aCBw9ttj0)
 
-<h3>Working block of the model</h3>
-![Imgur](https://i.imgur.com/ylObVkB.png)
+<h3>Working block of the model</h3><hr/>
+
+![p-agri model](https://i.imgur.com/ylObVkB.png)
